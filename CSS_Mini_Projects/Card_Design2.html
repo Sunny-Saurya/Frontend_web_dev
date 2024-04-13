@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: lightpink;
+            padding: 100px;
+            padding-left: 500px;
+            margin: 0px;
+        }
+
+        .card {
+            background-color: white;
+            height: 70vh;
+            width: 23vw;
+            border-radius: 30px;
+
+        }
+
+        #nature {
+            height: 190px;
+            width: 301px;
+            /* border-radius: 30px; */
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+
+        }
+
+        #picture {
+            border-radius: 160px;
+            width: 150px;
+            height: 150px;
+            border: 2px solid white;
+            position: relative;
+            top: -480px;
+            box-shadow: 2px 3px 8px black;
+            left: 76px;
+        }
+
+        .card>h2 {
+            text-align: center;
+            text-shadow: 1px 1px 9px grey;
+        }
+
+        button {
+            height: 40px;
+            width: 250px;
+            border-radius: 20px;
+            background-color: rgb(236, 165, 60);
+            position: relative;
+            top: -300px;
+            left: 30px;
+        }
+
+        .Followers {
+            margin-left: 40px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .followings {
+            float: right;
+            margin-top: -61px;
+            margin-right: 40px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .bio {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        button {
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+
+        }
+
+        button:hover {
+            color: white;
+            background-color: #ffa73e;
+            background-image: linear-gradient(to right, rgb(210, 102, 102), rgb(233, 164, 38));
+        }
+
+        .last {
+            color: black;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img id="nature" src="nature_photage.jpg" alt=""> <br><br><br>
+            <h2>Morgan Sweeney</h2>
+            <h6 class="bio">Full Stack Web Developer</h6>
+            <p class="Followers">&nbsp; &nbsp; &nbsp;12k <br> Followers</p>
+            <p class="followings">&nbsp; &nbsp; &nbsp;398<br> Followings</p>
+
+        </div>
+        <div class="profile">
+            <img id="picture" src="Profile_pic.png" alt="">
+        </div>
+        <div class="follow">
+            <button>
+                Follow
+            </button>
+        </div>
+        <div>
+            <p class="last">Full Stack Web Developer with a strong foundation in HTML, CSS, and JavaScript. Experienced
+                in building responsive and user-friendly web applications</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
