@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow properties</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            box-shadow: 5px 5px 4px coral;
+        }
+        .box > p{
+            text-shadow: 2px 1px 8px brown;
+        }
+        .box1{
+            border: 2px solid black;
+            background-color: lightblue;
+            text-shadow: 2px 2px 8px blue;
+            /* outline: 3px solid red; */
+            outline-offset: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Lets study Box shadow !</h3>
+    <div class="box">
+        <p>I am a box.</p>
+    </div>
+    <div class="box1">
+        <p>I am box no. 2</p>
+    </div>
+</body>
+</html>
