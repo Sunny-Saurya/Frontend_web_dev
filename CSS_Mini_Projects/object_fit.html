@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object fit or obejct cover.</title>
+    <style>
+        .container{
+            height: 30vh;
+            width: 30vw;
+            /* background-color: aquamarine; */
+            background-image: url(https://imgs.search.brave.com/gd0z7CtMZowNb7nKkQcXbzd-3LXYFG5_RJofyIAO9TQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTAy/NTA2NDEwL3Bob3Rv/L3lvdW5nLXdvbWFu/LXRha2luZy1hLXBp/Y3R1cmUuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPVRDZTBv/MTZYODVQbXBHNFNw/cGxMVDlIRzB5LWZY/cVRwMXR5clZJRG5E/MFU9);
+            /* background-position: 10px 30px; */
+            /* background-position: top bottom; */
+            background-image: center center;
+            background-repeat:no-repeat;
+            border: 2px solid black;
+
+        }
+        img{
+            /* height: 20px;
+            width: 40px;  rather than using this we can use object fit property of css*/
+            width: 30vw;
+            height: 40vh;
+            /* object-fit: cover; */
+            /* object-fit: contain; */
+            object-fit: fill;
+            object-position: bottom right;
+                    }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <!-- <img src="https://imgs.search.brave.com/gd0z7CtMZowNb7nKkQcXbzd-3LXYFG5_RJofyIAO9TQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTAy/NTA2NDEwL3Bob3Rv/L3lvdW5nLXdvbWFu/LXRha2luZy1hLXBp/Y3R1cmUuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPVRDZTBv/MTZYODVQbXBHNFNw/cGxMVDlIRzB5LWZY/cVRwMXR5clZJRG5E/MFU9" alt=""> -->
+    </div>
+</body>
+</html>
