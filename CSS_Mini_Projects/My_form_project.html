@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: rgb(139, 184, 199);
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+
+        textarea {
+            resize: none;
+        }
+
+        .navigation {
+            /* height: 50vh; */
+            width: 45vw;
+            display: flex;
+            justify-content: center;
+            background-color:rgb(0 160 192 / 67%);
+            margin: 0 auto;
+            align-items: center;
+            margin-top: 50px;
+            border-radius: 20px;
+            box-shadow: 10px 8px 25px #14678a;
+
+        }
+
+        div{
+            margin: 0;
+            padding: 0
+        }
+        .alright{
+            padding: 12px 0;
+            
+        }
+
+        #firstname , #lastname, #email, #phonenumber {
+            position:relative;
+            height: 20px;
+        }
+
+        #firstname:hover,#lastname:hover,#email:hover,#phonenumber:hover{
+            /* background-color: cornsilk; */
+            border: 2px solid black;
+        }
+        .button{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 5px;
+        }
+        .button:hover{
+            background-color: rgb(127, 246, 255);
+            
+        }
+
+        .bt{
+            text-align: center;
+            
+        }
+        h2{
+            font-family: 'Poor Story', system-ui;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navigation">
+        <form action="get">
+            <h2 class="alright">Ready to master the skill that Drive Your Carreer ?</h2>
+            <h4 class="alright">Avail your 1:1 mentorship session.</h4>
+
+
+            <div class = "alright"><input type="text" id="firstname" clasname="firstname" placeholder="First name*" required>
+
+            <input type="text" id="lastname" name="lastname" placeholder="Last name*" required></div>
+
+            <div class = "alright"><input type="email" id="email" name="email" placeholder="Email*" required></div>
+
+
+            <div>
+                <select class="phone">
+                    <option value="+91">India+91</option>
+                    <option value="+98">USA+98</option>
+                    <option value="+87">France+87</option>
+                    <option value="+998">Spain+998</option>
+                    <option value="+90">Uk+90</option>
+                </select>
+            </div>
+
+
+            <div class = "alright"><input type="number" id="phonenumber" placeholder="Phone*" required></div>
+
+
+            <div class = "alright"><textarea name="message" id="message" cols="25" rows="2"
+                    placeholder="Your Comment (Optional)"></textarea></div>
+
+            <div class = "alright">
+                <input type="checkbox">
+                <label for="checkbox">I want to receive updates directly on WhatsApp</label>
+            </div>
+
+            <div class="alright bt">
+                <button class="button">
+                   <a href="https://youtu.be/OLkAWT0xSoo?si=dIutsQurhZd6UgAq">Talk to us 📞</a> 
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
