@@ -1,0 +1,127 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+.container{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+}
+
+.bigbox{
+
+    background-color: #0f0f0f;
+
+    width: 800px;
+
+    height: 120px;
+
+    color: white;
+
+    display: flex;
+
+}
+
+img{
+
+    border-radius: 10px;
+
+    height: 90px;
+
+    margin-left: 10px;
+
+}
+
+.img{
+
+    display: flex;
+
+    width: 180px;
+
+    align-items: center;
+
+}
+
+.duration{
+
+    font-family: Roboto;
+
+    background-color: rgba(0, 0, 0, 0.726);
+
+    padding: 3px;
+
+    font-size: 13px;
+
+    border-radius: 5px;
+
+    position: relative;
+
+    right: 40px;
+
+    top: 31px;
+
+}
+
+.content{
+
+    height: 100px;
+
+    width: 700px;
+
+    margin:auto auto auto 0;
+
+    font-family: Roboto;
+
+}
+
+.title{
+
+    margin-top: 7px;
+
+    font-size: 15px;
+
+}
+
+.others{
+
+    display: flex;
+
+    width: 500px;
+
+    height: 25px;
+
+    margin-top: 9px;
+
+    font-size: 13px;
+
+    color: #a4a4a4;
+
+}
+
+.channel{
+
+    padding: 0 2px 0 2px;
+
+}
+
+.views{
+
+    padding: 0 2px 0 2px;
+
+}
+
+.day{
+
+    padding: 0 2px 0 2px;
+
+}
