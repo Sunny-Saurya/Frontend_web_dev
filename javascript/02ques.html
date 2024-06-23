@@ -1,0 +1,51 @@
+<!-- 2 The Double Trouble: You are tasked with writing a function that doubles each element in an array. However, there's a catch: if the array contains consecutive duplicate elements, only double one of them.
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #333;">
+    <script>
+        
+
+let array = []
+
+for (let i = 0; i < 10; i++) {
+    let arr = prompt(`Enter element ${i+1} of the array : `)
+    array.push(Number(arr))
+}
+console.log(array)
+
+let updateArray = [];
+
+i = 0;
+
+if (array[i] != array[i + 1]) {
+    array.forEach(() => {
+        updateArray.push(array[i] * 2);
+        i++;
+    })
+}
+else {
+    array.forEach(() => {
+        if (array[i] != array[i + 1]) {
+            updateArray.push(array[i] * 2);
+        }
+        else {
+            updateArray.push(array[i]);
+        }
+        i++;
+    })
+}
+
+console.log(updateArray)
+
+
+    </script>
+</body>
+</html>
