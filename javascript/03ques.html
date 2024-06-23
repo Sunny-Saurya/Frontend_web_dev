@@ -1,0 +1,33 @@
+<!-- 3 The Mirror Mirror: Imagine you have a string, and you need to create a new string that is a mirror image of the original. Write a function that appends the reversed version of the original string to itself. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mirror Mirror</title>
+</head>
+<body style="background-color: #333;">
+    <script>
+        let str = prompt("Enter the string : ")
+
+        console.log(str)
+
+        let rev  = str.split("").reverse().join("")
+
+        // let rev = ""
+
+        // for(let i = str.length-1; i >=0; i--)
+        // {
+        //     rev = rev + str[i]
+        // }
+
+        console.log(rev)
+
+        let updatedString  = str.concat(rev)
+        console.log(updatedString)
+
+    </script>
+</body>
+</html>
